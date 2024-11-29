@@ -6,8 +6,8 @@ M.load = function(opts)
   local c = opts.colors
 
   hl("FlashBackdrop", { fg = c.comment })
-  hl("FlashMatch", { fg = c.purple, bold = true })
-  hl("FlashCurrent", { fg = c.purple, bold = true })
+  hl("FlashMatch", { fg = c.yellow, bold = true })
+  hl("FlashCurrent", { fg = c.yellow, bold = true })
   hl("FlashLabel", { fg = "#ffffff", bg = c.pink })
   hl("FlashPrompt", { fg = c.comment })
   hl("FlashPromptIcon", { fg = c.comment })
