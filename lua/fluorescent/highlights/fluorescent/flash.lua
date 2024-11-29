@@ -5,10 +5,13 @@ M.load = function(opts)
   local hl = opts.utils.set_hl
   local c = opts.colors
 
-  hl('FlashBackdrop', { fg = c.red })
-  hl('HopNextKey1', { fg = c.green })
-  hl('HopNextKey2', { fg = c.green })
-  hl('HopUnmatched', { fg = c.comment })
+  hl("FlashBackdrop", { fg = c.comment })
+  hl("FlashMatch", { fg = c.cyan })
+  hl("FlashCurrent", { fg = c.green })
+  hl("FlashLabel", { fg = c.pink })
+  hl("FlashPrompt", { fg = c.comment })
+  hl("FlashPromptIcon", { fg = c.comment })
+  hl("FlashCursor", { fg = c.comment })
 end
 
 return M
