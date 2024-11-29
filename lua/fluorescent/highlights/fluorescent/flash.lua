@@ -7,7 +7,7 @@ M.load = function(opts)
 
   hl("FlashBackdrop", { fg = c.comment })
   hl("FlashMatch", { fg = c.purple, bold = true })
-  hl("FlashCurrent", { fg = c.comment, bold = true })
+  hl("FlashCurrent", { fg = c.purple, bold = true })
   hl("FlashLabel", { fg = "#ffffff", bg = c.pink })
   hl("FlashPrompt", { fg = c.comment })
   hl("FlashPromptIcon", { fg = c.comment })
