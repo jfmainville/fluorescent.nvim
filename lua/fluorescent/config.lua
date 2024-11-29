@@ -35,7 +35,7 @@ function M.default_config()
       dashboard = true,
       editor = true,
       gitsign = true,
-      hop = true,
+      flash = true,
       ibl = true,
       illuminate = true,
       lazy = true,
