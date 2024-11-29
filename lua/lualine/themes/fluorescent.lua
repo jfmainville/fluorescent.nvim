@@ -24,4 +24,8 @@ return {
     a = { bg = c.bg, fg = c.orange, gui = "bold" },
     b = { bg = darken(c.orange, 50), fg = c.orange },
   },
+  inactive = {
+    a = { bg = c.bg, fg = c.orange, gui = "bold" },
+    b = { bg = darken(c.orange, 50), fg = c.orange },
+  },
 }
