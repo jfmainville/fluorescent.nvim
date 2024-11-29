@@ -1,0 +1,1 @@
+require('fluorescent.config').load()
