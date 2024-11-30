@@ -4,6 +4,7 @@ local M = {
   bg = "#262335",
   bgdark = "#241B2F",
   cyan = "#61E2FF",
+  white = "#f8f8f2",
   green = "#72F1B8",
   orange = "#FF8B39",
   pink = "#FC199A",
