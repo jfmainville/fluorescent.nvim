@@ -50,6 +50,7 @@ function M.default_config()
       notify = true,
       lspconfig = true,
       oil = true,
+      rendermarkdown = true,
       syntax = true,
       telescope = true,
       treesitter = true,
