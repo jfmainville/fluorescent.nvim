@@ -16,6 +16,8 @@ M.load = function(opts)
   hl("RenderMarkdownH4", { fg = "#58B59C" })
   hl("RenderMarkdownH5", { fg = "#B6A0EB" })
   hl("RenderMarkdownH6", { fg = "#9780CC" })
+  hl("RenderMarkdownCode", { bg = "#191A24" })
+  hl("RenderMarkdownCodeInline", { bg = "#191A24" })
 end
 
 return M
