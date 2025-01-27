@@ -39,6 +39,7 @@ function M.default_config()
       ibl = true,
       illuminate = true,
       lazy = true,
+      markview = true,
       minicursor = true,
       ministarter = true,
       minitabline = true,
