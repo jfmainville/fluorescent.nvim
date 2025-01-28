@@ -2,12 +2,10 @@ local function get_colors()
   local config = require("fluorescent.config").config
   local theme = (config or { theme = "fluorescent" }).theme
   local colors = require(string.format("fluorescent.colors.%s", theme))
+  local color = require("fluorescent.utils.color")
 
-  if config and config.theme == "fluorescent" and config.glow then
-    local color = require("fluorescent.utils.color")
-    colors.bg = "#200933"
-    colors.bgdark = color.darken("#200933", 10)
-  end
+  colors.bg = "#200933"
+  colors.bgdark = color.darken("#200933", 10)
 
   return colors
 end
